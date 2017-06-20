@@ -70,6 +70,24 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConfigServe.Common\ConfigServe.Common.csproj">
+      <Project>{ef495a83-4986-4bad-99ab-b41d82dc7294}</Project>
+      <Name>ConfigServe.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigServe.Core\ConfigServe.Core.csproj">
+      <Project>{402e7a88-773a-4032-87c7-047af92caeb6}</Project>
+      <Name>ConfigServe.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigServe.Entity\ConfigServe.Entity.csproj">
+      <Project>{c0b4c78d-d206-49b0-9caf-12673b8d876d}</Project>
+      <Name>ConfigServe.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigServe.Util\ConfigServe.Util.csproj">
+      <Project>{50417fa8-7bbf-4565-9914-5158554e9705}</Project>
+      <Name>ConfigServe.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
